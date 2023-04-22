@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ronnie_fieg_asics_free_background__iphone_desktop_"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/asap_medium"
+        android:outlineProvider="none"
+        android:text="Home"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="632dp"
+        android:layout_height="421dp"
+        android:scaleX="1"
+        app:srcCompat="@drawable/square_rounded_xxl"
+        tools:layout_editor_absoluteX="-111dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/asap_medium"
+        android:outlineProvider="none"
+        android:text="Nike"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air Force 1 Mid '07 (Wheat)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/asap_medium"
+        android:outlineProvider="none"
+        android:text="Nike"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air Max 97 (Silver Bullet)"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="512dp"
+        android:layout_height="311dp"
+        android:scaleX="3"
+        app:srcCompat="@drawable/square_rounded_xxl"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_______________________________________________________________"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="649dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/add"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/icons8_trophy_96"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/icons8_home_96"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/icons8_search_50"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/icons8_user_96"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="677dp"
+        android:layout_height="61dp"
+        android:rotation="90"
+        android:text="____________________________________________________________________________________"
+        tools:layout_editor_absoluteX="-148dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        app:srcCompat="@drawable/icons8_double_down_96"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort by Category: Brand"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="437dp"
+        android:layout_height="24dp"
+        android:text="__________________________________________________________________________"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="174dp"
+        android:layout_height="251dp"
+        app:srcCompat="@drawable/authentic_nike_air_force_1_mid_1654151658_86aa24f9_progressive"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="173dp"
+        android:layout_height="261dp"
+        app:srcCompat="@drawable/nike_air_97_silver_bullt"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="172dp"
+        android:layout_height="195dp"
+        app:srcCompat="@drawable/air_270"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="176dp"
+        android:layout_height="239dp"
+        app:srcCompat="@drawable/jordan_4"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
